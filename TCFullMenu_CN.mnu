@@ -1,0 +1,602 @@
+POPUP "来源面板"
+    MENUITEM "来源面板: 显示文件备注", 300
+    MENUITEM "来源面板: 列表", 301
+    MENUITEM "来源面板: 详细信息", 302
+    MENUITEM "来源面板: 树状视图", 303
+    MENUITEM "来源面板: 快速查看", 304
+    MENUITEM "面板：上下排列", 305
+    MENUITEM "来源面板: 快速查看(不使用插件)", 306
+    MENUITEM "来源面板: 关闭快速查看", 307
+    MENUITEM "来源面板: 仅程序文件", 311
+    MENUITEM "来源面板: 所有文件", 312
+    MENUITEM "来源面板: 最后选择的文件类型", 313
+    MENUITEM "来源面板: 选择文件类型", 314
+    MENUITEM "来源面板: 按文件名排序", 321
+    MENUITEM "来源面板: 按扩展名排序", 322
+    MENUITEM "来源面板: 按大小排序", 323
+    MENUITEM "来源面板: 按时间排序", 324
+    MENUITEM "来源面板: 不排序", 325
+    MENUITEM "来源面板: 反向排序", 330
+    MENUITEM "来源面板: 打开驱动器列表", 331
+    MENUITEM "来源面板: 缩略图", 269
+    MENUITEM "来源面板: 显示自定义视图菜单", 270
+    MENUITEM "来源面板: 将焦点移到路径栏", 332
+    MENUITEM "来源面板: 显示视图模式菜单", 333
+END_POPUP
+POPUP "左面板"
+    MENUITEM "左面板: 显示文件备注", 100
+    MENUITEM "左面板: 列表", 101
+    MENUITEM "左面板: 详细信息", 102
+    MENUITEM "左面板: 树状视图", 103
+    MENUITEM "左面板: 快速查看", 104
+    MENUITEM "左面板: 快速查看(不使用插件)", 106
+    MENUITEM "左面板: 关闭快速查看", 107
+    MENUITEM "左面板: 仅程序文件", 111
+    MENUITEM "左面板: 所有文件", 112
+    MENUITEM "左面板: 最后选择的文件类型", 113
+    MENUITEM "左面板: 选择文件类型", 114
+    MENUITEM "左面板: 按文件名排序", 121
+    MENUITEM "左面板: 按扩展名排序", 122
+    MENUITEM "左面板: 按大小排序", 123
+    MENUITEM "左面板: 按时间排序", 124
+    MENUITEM "左面板: 不排序", 125
+    MENUITEM "左面板: 反向排序", 130
+    MENUITEM "左面板: 打开驱动器列表", 131
+    MENUITEM "左面板: 将焦点移到路径栏", 132
+    MENUITEM "左面板: 分支视图(针对所有文件和文件夹)", 2034
+    MENUITEM "左面板: 分支视图(仅针对选定的文件和文件夹)", 2047
+    MENUITEM "左面板: 缩略图", 69
+    MENUITEM "左面板: 显示自定义视图菜单", 70
+    MENUITEM "左面板: 显示视图模式菜单", 133
+END_POPUP
+POPUP "右面板"
+    MENUITEM "右面板: 显示文件备注", 200
+    MENUITEM "右面板: 列表", 201
+    MENUITEM "右面板: 详细信息", 202
+    MENUITEM "右面板: 树状视图", 203
+    MENUITEM "右面板: 快速查看", 204
+    MENUITEM "右面板: 快速查看(不使用插件)", 206
+    MENUITEM "右面板: 关闭快速查看", 207
+    MENUITEM "右面板: 仅程序文件", 211
+    MENUITEM "右面板: 所有文件", 212
+    MENUITEM "右面板: 最后选择的文件类型", 213
+    MENUITEM "右面板: 选择文件类型", 214
+    MENUITEM "右面板: 按文件名排序", 221
+    MENUITEM "右面板: 按扩展名排序", 222
+    MENUITEM "右面板: 按大小排序", 223
+    MENUITEM "右面板: 按时间排序", 224
+    MENUITEM "右面板: 不排序", 225
+    MENUITEM "右面板: 反向排序", 230
+    MENUITEM "右面板: 打开驱动器列表", 231
+    MENUITEM "右面板: 将焦点移到路径栏", 232
+    MENUITEM "右面板: 分支视图(针对所有文件和文件夹)", 2035
+    MENUITEM "右面板: 分支视图(仅针对选定的文件和文件夹)", 2048
+    MENUITEM "右面板: 缩略图", 169
+    MENUITEM "右面板: 显示自定义视图菜单", 170
+    MENUITEM "右面板: 显示视图模式菜单", 233
+END_POPUP
+POPUP "文件操作"
+    MENUITEM "查看文件", 903
+    MENUITEM "查看单个文件(不使用插件/多媒体)", 1006
+    MENUITEM "查看选定的文件(不使用插件/多媒体)", 2933
+    MENUITEM "查看单个文件(使用插件/多媒体)", 2934
+    MENUITEM "查看选定的文件(使用插件/多媒体)", 2935
+    MENUITEM "编辑文件", 904
+    MENUITEM "新建或打开文本文件", 2931
+    MENUITEM "显示“新建”上下文菜单", 2943
+    MENUITEM "编辑光标下的文件(忽略 Shift 键)", 2932
+    MENUITEM "复制文件", 905
+    MENUITEM "复制到当前面板", 3100
+    MENUITEM "复制到另一面板", 3101
+    MENUITEM "重命名/移动文件", 906
+    MENUITEM "新建文件夹(来源面板)", 907
+    MENUITEM "新建文件夹(目标面板)", 911
+    MENUITEM "删除文件", 908
+    MENUITEM "测试压缩包", 518
+    MENUITEM "压缩文件", 508
+    MENUITEM "解压缩文件", 509
+    MENUITEM "重命名文件(Shift+F6)", 1002
+    MENUITEM "重命名光标下的文件", 1007
+    MENUITEM "移动文件(F6)", 1005
+    MENUITEM "显示“属性”对话框", 1003
+    MENUITEM "显示“共享”超级按钮(Windows 10)", 1008
+    MENUITEM "创建快捷方式", 1004
+    MENUITEM "模拟按下 Enter 键", 1001
+    MENUITEM "以其他用户身份运行光标下的程序", 2800
+    MENUITEM "拆分文件", 560
+    MENUITEM "合并文件", 561
+    MENUITEM "文件编码(MIME、UUE、XXE)", 562
+    MENUITEM "文件解码(MIME、UUE、XXE、BinHex)", 563
+    MENUITEM "创建校验和文件", 564
+    MENUITEM "验证校验和", 565
+    MENUITEM "更改属性", 502
+END_POPUP
+POPUP "配置"
+    MENUITEM "配置: 布局(第一页)", 490
+    MENUITEM "配置: 布局", 476
+    MENUITEM "配置: 显示", 486
+    MENUITEM "配置: 图标", 477
+    MENUITEM "配置: 字体", 492
+    MENUITEM "配置: 颜色", 494
+    MENUITEM "配置: 制表位", 497
+    MENUITEM "配置: 文件夹标签", 488
+    MENUITEM "配置: 自定义视图", 483
+    MENUITEM "更改当前使用的自定义视图", 2920
+    MENUITEM "配置: 视图模式", 2939
+    MENUITEM "配置: 自动切换视图模式", 2940
+    MENUITEM "配置: 语言", 499
+    MENUITEM "配置: 操作", 516
+    MENUITEM "配置: 编辑/查看", 496
+    MENUITEM "配置: 复制/删除", 487
+    MENUITEM "配置: 刷新", 478
+    MENUITEM "配置: 快速搜索", 479
+    MENUITEM "配置: FTP", 489
+    MENUITEM "配置: 插件", 484
+    MENUITEM "配置: 缩略图", 482
+    MENUITEM "配置: 日志文件", 481
+    MENUITEM "配置: 忽略列表", 480
+    MENUITEM "配置: 压缩程序", 491
+    MENUITEM "配置: ZIP 压缩程序", 485
+    MENUITEM "配置: 其他", 495
+    MENUITEM "配置: 保存窗口位置", 493
+    MENUITEM "配置: 工具栏", 498
+    MENUITEM "配置: 垂直工具栏", 583
+    MENUITEM "配置: 保存设置", 580
+    MENUITEM "配置: 直接修改设置文件", 581
+    MENUITEM "配置: 保存文件夹历史记录", 582
+    MENUITEM "更改开始菜单", 700
+END_POPUP
+POPUP "网络"
+    MENUITEM "映射网络驱动器", 512
+    MENUITEM "断开网络驱动器", 513
+    MENUITEM "共享文件夹", 514
+    MENUITEM "停止共享文件夹", 515
+    MENUITEM "显示系统共享文件夹", 2204
+    MENUITEM "显示本地文件的远程用户", 2203
+END_POPUP
+POPUP "其他"
+    MENUITEM "计算占用空间", 503
+    MENUITEM "设置卷标", 505
+    MENUITEM "显示“属性”对话框", 510
+    MENUITEM "打开命令提示符窗口", 511
+    MENUITEM "比较文件夹", 533
+    MENUITEM "比较文件夹(同时标记不同的子文件夹)", 536
+    MENUITEM "显示上下文菜单", 2500
+    MENUITEM "显示内部关联上下文菜单", 2927
+    MENUITEM "显示光标下文件的内部关联上下文菜单", 2928
+    MENUITEM "显示多媒体娱乐中心遥控器调出的上下文菜单", 2930
+    MENUITEM "开启/关闭: 两侧面板同步更改文件夹", 2600
+    MENUITEM "编辑文件备注", 2700
+    MENUITEM "将焦点移到左面板", 4001
+    MENUITEM "将焦点移到右面板", 4002
+    MENUITEM "将焦点移到来源面板", 4005
+    MENUITEM "将焦点移到目标面板", 4006
+    MENUITEM "将焦点移到命令行", 4003
+    MENUITEM "将焦点移到工具栏", 4004
+    MENUITEM "将焦点移到左树状面板", 4007
+    MENUITEM "将焦点移到右树状面板", 4008
+    MENUITEM "将焦点移到来源树状面板", 4009
+    MENUITEM "将焦点移到目标树状面板", 4010
+    MENUITEM "计算所有子文件夹占用的空间", 2014
+    MENUITEM "卸载所有插件", 2913
+    MENUITEM "标记新文件，隐藏相同者", 534
+    MENUITEM "交换两侧面板", 531
+    MENUITEM "目标路径 = 来源路径", 532
+    MENUITEM "重新加载选定的缩略图", 2918
+    MENUITEM "重新加载工具栏和开始菜单的图标", 2945
+    MENUITEM "检查更新", 650
+END_POPUP
+POPUP "并行端口"
+    MENUITEM "直接电缆连接", 2300
+    MENUITEM "加载并行端口驱动程序", 2301
+    MENUITEM "卸载并行端口驱动程序", 2302
+END_POPUP
+POPUP "打印"
+    MENUITEM "打印文件列表", 2027
+    MENUITEM "打印文件列表(包括子文件夹)", 2028
+    MENUITEM "打印文件内容", 504
+END_POPUP
+POPUP "标记"
+    MENUITEM "增加选择", 521
+    MENUITEM "增加选择: 预先加载光标下文件的扩展名", 546
+    MENUITEM "增加选择: 文件+文件夹", 3311
+    MENUITEM "增加选择: 仅文件", 3312
+    MENUITEM "增加选择: 仅文件夹", 3313
+    MENUITEM "减少选择", 522
+    MENUITEM "减少选择: 预先加载光标下文件的扩展名", 547
+    MENUITEM "减少选择: 仅文件", 3314
+    MENUITEM "减少选择: 仅文件夹", 3315
+    MENUITEM "减少选择: 仅文件或文件+文件夹(视配置而定)", 3316
+    MENUITEM "全部选择: 仅文件或文件+文件夹(视配置而定)", 523
+    MENUITEM "全部选择: 文件+文件夹", 3301
+    MENUITEM "全部选择: 仅文件", 3302
+    MENUITEM "全部选择: 仅文件夹", 3303
+    MENUITEM "全部取消: 文件+文件夹", 524
+    MENUITEM "全部取消: 仅文件", 3304
+    MENUITEM "全部取消: 仅文件夹", 3305
+    MENUITEM "全部取消: 仅文件或文件+文件夹(视配置而定)", 3306
+    MENUITEM "反向选择", 525
+    MENUITEM "反向选择: 文件+文件夹", 3321
+    MENUITEM "反向选择: 仅文件", 3322
+    MENUITEM "反向选择: 仅文件夹", 3323
+    MENUITEM "全部选择: 扩展名相同的文件", 527
+    MENUITEM "全部取消: 扩展名相同的文件", 528
+    MENUITEM "全部选择: 文件名相同的文件", 541
+    MENUITEM "全部取消: 文件名相同的文件", 542
+    MENUITEM "全部选择: 文件名和扩展名都相同的文件", 543
+    MENUITEM "全部取消: 文件名和扩展名都相同的文件", 544
+    MENUITEM "全部选择: 路径相同的文件(分支视图/搜索文件)", 537
+    MENUITEM "全部取消: 路径相同的文件(分支视图/搜索文件)", 538
+    MENUITEM "还原选择", 529
+    MENUITEM "保存选择", 530
+    MENUITEM "导出选择", 2031
+    MENUITEM "导出选择(ANSI)", 2041
+    MENUITEM "导出选择(Unicode)", 2042
+    MENUITEM "导出详细信息", 2039
+    MENUITEM "导出详细信息(ANSI)", 2043
+    MENUITEM "导出详细信息(Unicode)", 2044
+    MENUITEM "导入选择(从文件)", 2032
+    MENUITEM "导入选择(从剪贴板)", 2033
+    MENUITEM "选择文件并下移光标", 2936
+    MENUITEM "取消选择并下移光标", 2937
+    MENUITEM "反向选择并下移光标", 2938
+END_POPUP
+POPUP "安全性"
+    MENUITEM "设置权限(NTFS)", 2200
+    MENUITEM "设置权限(NTFS)", 2200
+    MENUITEM "审核文件(NTFS)", 2201
+    MENUITEM "取得所有权(NTFS)", 2202
+END_POPUP
+POPUP "剪贴板"
+    MENUITEM "将所选文件剪切到剪贴板", 2007
+    MENUITEM "将所选文件复制到剪贴板", 2008
+    MENUITEM "将文件粘贴到当前文件夹中", 2009
+    MENUITEM "复制名称", 2017
+    MENUITEM "复制完整路径及名称", 2018
+    MENUITEM "复制网络路径及名称", 2021
+    MENUITEM "复制来源路径", 2029
+    MENUITEM "复制目标路径", 2030
+    MENUITEM "复制详细信息", 2036
+    MENUITEM "复制完整路径及详细信息", 2037
+    MENUITEM "复制网络路径及详细信息", 2038
+END_POPUP
+POPUP "FTP"
+    MENUITEM "连接到 FTP", 550
+    MENUITEM "新建 FTP 连接", 551
+    MENUITEM "断开 FTP 连接", 552
+    MENUITEM "显示隐藏的 FTP 文件", 553
+    MENUITEM "中止当前的 FTP 命令", 554
+    MENUITEM "续传下载", 555
+    MENUITEM "选择传输模式", 556
+    MENUITEM "将所选文件添加到下载列表", 557
+    MENUITEM "按下载列表下载", 558
+END_POPUP
+POPUP "浏览"
+    MENUITEM "后退", 570
+    MENUITEM "前进", 571
+    MENUITEM "文件夹历史记录", 572
+    MENUITEM "文件夹历史记录(未精简)", 575
+    MENUITEM "后退(跳过 FTP 路径)", 573
+    MENUITEM "前进(跳过 FTP 路径)", 574
+    MENUITEM "常用文件夹", 526
+    MENUITEM "转到根目录", 2001
+    MENUITEM "转到上一级文件夹", 2002
+    MENUITEM "打开光标下的文件夹或压缩包", 2003
+    MENUITEM "桌面文件夹", 2121
+    MENUITEM "此电脑", 2122
+    MENUITEM "控制面板", 2123
+    MENUITEM "字体文件夹", 2124
+    MENUITEM "网络", 2125
+    MENUITEM "打印机文件夹", 2126
+    MENUITEM "回收站", 2127
+    MENUITEM "文件夹树", 500
+    MENUITEM "在左面板打开光标下的文件夹", 2024
+    MENUITEM "在右面板打开光标下的文件夹", 2025
+    MENUITEM "编辑来源路径", 2912
+    MENUITEM "将光标移到第一个文件或文件夹", 2049
+    MENUITEM "将光标移到第一个文件", 2050
+    MENUITEM "切换到下一个驱动器", 2051
+    MENUITEM "切换到上一个驱动器", 2052
+    MENUITEM "转到下一个选定的文件", 2053
+    MENUITEM "转到上一个选定的文件", 2054
+    MENUITEM "转到下一个文件", 2055
+    MENUITEM "转到上一个文件", 2056
+    MENUITEM "转到最后一个文件", 2057
+    MENUITEM "切换到驱动器 A", 2061
+    MENUITEM "切换到驱动器 C", 2063
+    MENUITEM "切换到驱动器 D", 2064
+    MENUITEM "切换到驱动器 E", 2065
+    MENUITEM "等等", 2066
+    MENUITEM "(直到驱动器 Z，命令代码: 2086)", 2086
+END_POPUP
+POPUP "帮助"
+    MENUITEM "帮助索引", 610
+    MENUITEM "快捷键列表", 620
+    MENUITEM "注册信息", 630
+    MENUITEM "访问主页", 640
+    MENUITEM "关于 Total Commander", 690
+END_POPUP
+POPUP "窗口"
+    MENUITEM "退出 Total Commander", 24340
+    MENUITEM "最小化 Total Commander", 2000
+    MENUITEM "最大化 Total Commander", 2015
+    MENUITEM "还原到正常大小", 2016
+END_POPUP
+POPUP "命令行"
+    MENUITEM "清除命令行", 2004
+    MENUITEM "下一个命令", 2005
+    MENUITEM "上一个命令", 2006
+    MENUITEM "将路径复制到命令行", 2019
+END_POPUP
+POPUP "工具"
+    MENUITEM "批量重命名", 2400
+    MENUITEM "系统信息", 506
+    MENUITEM "后台传输管理器", 559
+    MENUITEM "搜索文件", 501
+    MENUITEM "搜索文件(光标下的文件夹)", 517
+    MENUITEM "搜索文件(单独进程)", 545
+    MENUITEM "同步文件夹", 2020
+    MENUITEM "文件关联", 507
+    MENUITEM "内部关联", 519
+    MENUITEM "比较文件内容", 2022
+    MENUITEM "使用内置比较工具", 2040
+    MENUITEM "浏览内部命令", 2924
+    MENUITEM "打开单独的快速查看窗口", 2941
+    MENUITEM "打开单独的快速查看窗口(不使用插件)", 2942
+    MENUITEM "刷新快速查看窗口", 2946
+END_POPUP
+POPUP "显示"
+    MENUITEM "显示/隐藏: 工具栏", 2901
+    MENUITEM "显示/隐藏: 垂直工具栏", 2944
+    MENUITEM "显示/隐藏: 驱动器按钮栏", 2902
+    MENUITEM "显示/隐藏: 两个驱动器按钮栏", 2903
+    MENUITEM "平面/立体: 驱动器按钮", 2904
+    MENUITEM "平面/立体: 用户界面", 2905
+    MENUITEM "显示/隐藏: 驱动器列表栏", 2906
+    MENUITEM "显示/隐藏: 路径栏", 2907
+    MENUITEM "显示/隐藏: 痕迹导航栏", 2926
+    MENUITEM "显示/隐藏: 列标题", 2908
+    MENUITEM "显示/隐藏: 状态栏", 2909
+    MENUITEM "显示/隐藏: 命令行", 2910
+    MENUITEM "显示/隐藏: 功能键按钮", 2911
+    MENUITEM "显示文件提示信息", 2914
+    MENUITEM "显示快速搜索框", 2915
+    MENUITEM "开启/关闭: 显示长文件名", 2010
+    MENUITEM "刷新来源面板", 540
+    MENUITEM "隐藏未选定的文件", 2023
+    MENUITEM "开启/关闭: 显示隐藏文件或系统文件", 2011
+    MENUITEM "开启/关闭: 显示隐藏文件", 3013
+    MENUITEM "开启/关闭: 显示系统文件", 3014
+    MENUITEM "开启/关闭: 小写显示 8.3 格式文件名", 2013
+    MENUITEM "开启/关闭: 文件夹按名称排序", 2012
+    MENUITEM "分支视图(针对所有文件和文件夹)", 2026
+    MENUITEM "分支视图(仅针对选定的文件和文件夹)", 2046
+    MENUITEM "将面板设置为相同大小", 909
+    MENUITEM "隐藏非活动面板", 910
+    MENUITEM "显示/隐藏: 文件夹标签栏", 2916
+    MENUITEM "显示/隐藏: XP 主题背景", 2923
+    MENUITEM "开启/关闭: 显示覆盖图标", 2917
+    MENUITEM "显示/隐藏: 文件夹历史记录和常用文件夹按钮", 2919
+    MENUITEM "开启/关闭: 文件夹自动刷新", 2921
+    MENUITEM "开启/关闭: 忽略列表", 2922
+    MENUITEM "开启/关闭: System32 重定向到 SysWOW64", 2925
+    MENUITEM "隐藏树状面板", 3200
+    MENUITEM "显示一个树状面板", 3201
+    MENUITEM "显示两个树状面板", 3202
+    MENUITEM "切换树状面板状态", 3203
+    MENUITEM "开启/关闭: 显示一个树状面板", 3204
+    MENUITEM "开启/关闭: 显示两个树状面板", 3205
+    MENUITEM "更改压缩包中文件名的编码", 2948
+    MENUITEM "开启/关闭: 深色模式", 2950
+    MENUITEM "开启深色模式", 2951
+    MENUITEM "关闭深色模式", 2952
+END_POPUP
+POPUP "开始菜单"
+    MENUITEM "运行开始菜单中的第一项", 701
+    MENUITEM "运行开始菜单中的第二项", 702
+    MENUITEM "等等", 703
+    MENUITEM "etc.", 704
+;    MENUITEM "None", 705
+;    MENUITEM "None", 706
+;    MENUITEM "None", 707
+    MENUITEM "You can add more", 708
+    MENUITEM "custom user menu ids", 709
+    MENUITEM "(直到第 199 项，命令代码: 899)", 710
+END_POPUP
+POPUP "文件夹标签"
+    MENUITEM "新建标签", 3001
+    MENUITEM "新建标签(后台显示)", 3002
+    MENUITEM "新建标签并打开光标下的文件夹(当前面板)", 3003
+    MENUITEM "新建标签并打开光标下的文件夹(另一面板)", 3004
+    MENUITEM "切换到下一个标签(Ctrl+Tab)", 3005
+    MENUITEM "切换到上一个标签(Ctrl+Shift+Tab)", 3006
+    MENUITEM "左移标签", 3015
+    MENUITEM "右移标签", 3016
+    MENUITEM "关闭标签", 3007
+    MENUITEM "关闭所有标签", 3008
+    MENUITEM "显示文件夹标签菜单", 3009
+    MENUITEM "开启/关闭: 锁定标签", 3010
+    MENUITEM "开启/关闭: 锁定标签(可更改文件夹)", 3012
+    MENUITEM "交换两侧面板所有标签", 535
+    MENUITEM "转到锁定标签的原始文件夹", 3011
+    MENUITEM "来源面板: 切换到第一个标签", 5001
+    MENUITEM "来源面板: 切换到第二个标签", 5002
+    MENUITEM "等等", 5003
+    MENUITEM "etc.", 5004
+;    MENUITEM "None", 5005
+;    MENUITEM "None", 5006
+;    MENUITEM "None", 5007
+;    MENUITEM "None", 5008
+;    MENUITEM "None", 5009
+    MENUITEM "(直到第 99 个标签，命令代码: 5099)", 5010
+    MENUITEM "目标面板: 切换到第一个标签", 5101
+    MENUITEM "目标面板: 切换到第二个标签", 5102
+    MENUITEM "等等", 5103
+    MENUITEM "etc.", 5104
+;    MENUITEM "None", 5105
+;    MENUITEM "None", 5106
+;    MENUITEM "None", 5107
+;    MENUITEM "None", 5108
+;    MENUITEM "None", 5109
+;    MENUITEM "None", 5110
+    MENUITEM "左面板: 切换到第一个标签", 5201
+    MENUITEM "左面板: 切换到第二个标签", 5202
+    MENUITEM "等等", 5203
+    MENUITEM "etc.", 5204
+;    MENUITEM "None", 5205
+;    MENUITEM "None", 5206
+;    MENUITEM "None", 5207
+;    MENUITEM "None", 5208
+;    MENUITEM "None", 5209
+;    MENUITEM "None", 5210
+    MENUITEM "右面板: 切换到第一个标签", 5301
+    MENUITEM "右面板: 切换到第二个标签", 5302
+    MENUITEM "等等", 5303
+    MENUITEM "etc.", 5304
+;    MENUITEM "None", 5305
+;    MENUITEM "None", 5306
+;    MENUITEM "None", 5307
+;    MENUITEM "None", 5308
+;    MENUITEM "None", 5309
+;    MENUITEM "None", 5310
+END_POPUP
+POPUP "排序"
+    MENUITEM "来源面板: 按第一列排序", 6001
+    MENUITEM "来源面板: 按第二列排序", 6002
+    MENUITEM "等等", 6003
+    MENUITEM " etc.", 6004
+;    MENUITEM "None", 6005
+;    MENUITEM "None", 6006
+;    MENUITEM "None", 6007
+;    MENUITEM "None", 6008
+;    MENUITEM "None", 6009
+;    MENUITEM "None", 6010
+;    MENUITEM "None", 6099
+    MENUITEM "目标面板: 按第一列排序", 6101
+    MENUITEM "目标面板: 按第二列排序", 6102
+    MENUITEM "等等", 6103
+    MENUITEM " etc.", 6104
+;    MENUITEM "None", 6105
+;    MENUITEM "None", 6106
+;    MENUITEM "None", 6107
+;    MENUITEM "None", 6108
+;    MENUITEM "None", 6109
+;    MENUITEM "None", 6110
+;    MENUITEM "None", 6199
+    MENUITEM "左面板: 按第一列排序", 6201
+    MENUITEM "左面板: 按第二列排序", 6202
+    MENUITEM "等等", 6203
+    MENUITEM " etc.", 6204
+;    MENUITEM "None", 6205
+;    MENUITEM "None", 6206
+;    MENUITEM "None", 6207
+;    MENUITEM "None", 6208
+;    MENUITEM "None", 6209
+;    MENUITEM "None", 6210
+;    MENUITEM "None", 6299
+    MENUITEM "右面板: 按第一列排序", 6301
+    MENUITEM "右面板: 按第二列排序", 6302
+    MENUITEM "等等", 6303
+    MENUITEM " etc.", 6304
+;    MENUITEM "None", 6305
+;    MENUITEM "None", 6306
+;    MENUITEM "None", 6307
+;    MENUITEM "None", 6308
+;    MENUITEM "None", 6309
+;    MENUITEM "None", 6310
+;    MENUITEM "None", 6399
+END_POPUP
+POPUP "自定义视图"
+    MENUITEM "来源面板: 切换到自定义视图 1", 271
+    MENUITEM "来源面板: 切换到自定义视图 2", 272
+    MENUITEM "等等", 273
+;    MENUITEM "None", 274
+;    MENUITEM "None", 275
+;    MENUITEM "None", 276
+;    MENUITEM "None", 277
+;    MENUITEM "None", 278
+    MENUITEM "(直到第 29 个视图，命令代码: 299)", 279
+    MENUITEM "目标面板: 切换到自定义视图 1", 421
+    MENUITEM "目标面板: 切换到自定义视图 2", 422
+    MENUITEM "等等", 423
+;    MENUITEM "None", 424
+;    MENUITEM "None", 425
+;    MENUITEM "None", 426
+;    MENUITEM "None", 427
+;    MENUITEM "None", 428
+    MENUITEM "(直到第 29 个视图，命令代码: 449)", 429
+    MENUITEM "左面板: 切换到自定义视图 1", 71
+    MENUITEM "左面板: 切换到自定义视图 2", 72
+    MENUITEM "等等", 73
+;    MENUITEM "None", 74
+;    MENUITEM "None", 75
+;    MENUITEM "None", 76
+;    MENUITEM "None", 77
+;    MENUITEM "None", 78
+;    MENUITEM "None", 79
+    MENUITEM "右面板: 切换到自定义视图 1", 171
+    MENUITEM "右面板: 切换到自定义视图 2", 172
+    MENUITEM "等等", 173
+;    MENUITEM "None", 174
+;    MENUITEM "None", 175
+;    MENUITEM "None", 176
+;    MENUITEM "None", 177
+;    MENUITEM "None", 178
+;    MENUITEM "None", 179
+    MENUITEM "来源面板: 切换到下一个自定义视图", 5501
+    MENUITEM "来源面板: 切换到上一个自定义视图", 5502
+    MENUITEM "目标面板: 切换到下一个自定义视图", 5503
+    MENUITEM "目标面板: 切换到上一个自定义视图", 5504
+    MENUITEM "左面板: 切换到下一个自定义视图", 5505
+    MENUITEM "左面板: 切换到上一个自定义视图", 5506
+    MENUITEM "右面板: 切换到下一个自定义视图", 5507
+    MENUITEM "右面板: 切换到上一个自定义视图", 5508
+    MENUITEM "所有文件都加载自定义字段", 5512
+    MENUITEM "仅所选文件加载自定义字段", 5513
+    MENUITEM "停止后台加载自定义字段", 5514
+    MENUITEM "设置左面板自定义视图(lparam=视图号)", 5510
+    MENUITEM "设置右面板自定义视图(lparam=视图号)", 5511
+END_POPUP
+POPUP "视图模式"
+    MENUITEM "开启/关闭: 自动切换视图模式", 2947
+    MENUITEM "来源面板: 切换到默认视图模式(无颜色或图标)", 8500
+    MENUITEM "来源面板: 切换到视图模式 1", 8501
+    MENUITEM "来源面板: 切换到视图模式 2", 8502
+    MENUITEM "等等", 8503
+;    MENUITEM "None", 8504
+;    MENUITEM "None", 8505
+;    MENUITEM "None", 8506
+;    MENUITEM "None", 8507
+;    MENUITEM "None", 8508
+    MENUITEM "(直到第 249 个模式，命令代码: 8749)", 8509
+    MENUITEM "目标面板: 切换到默认视图模式(无颜色或图标)", 8750
+    MENUITEM "目标面板: 切换到视图模式 1", 8751
+    MENUITEM "目标面板: 切换到视图模式 2", 8752
+    MENUITEM "等等", 8753
+;    MENUITEM "None", 8754
+;    MENUITEM "None", 8755
+;    MENUITEM "None", 8756
+;    MENUITEM "None", 8757
+;    MENUITEM "None", 8758
+    MENUITEM "(直到第 249 个模式，命令代码: 8999)", 8759
+    MENUITEM "左面板: 切换到默认视图模式(无颜色或图标)", 8000
+    MENUITEM "左面板: 切换到视图模式 1", 8001
+    MENUITEM "左面板: 切换到视图模式 2", 8002
+    MENUITEM "等等", 8003
+;    MENUITEM "None", 8004
+;    MENUITEM "None", 8005
+;    MENUITEM "None", 8006
+;    MENUITEM "None", 8007
+;    MENUITEM "None", 8008
+    MENUITEM "(直到第 249 个模式，命令代码: 8249)", 8009
+    MENUITEM "右面板: 切换到默认视图模式(无颜色或图标)", 8250
+    MENUITEM "右面板: 切换到视图模式 1", 8251
+    MENUITEM "右面板: 切换到视图模式 2", 8252
+    MENUITEM "等等", 8253
+;    MENUITEM "None", 8254
+;    MENUITEM "None", 8255
+;    MENUITEM "None", 8256
+;    MENUITEM "None", 8257
+;    MENUITEM "None", 8258
+    MENUITEM "(直到第 249 个模式，命令代码: 8499)", 8259
+END_POPUP
