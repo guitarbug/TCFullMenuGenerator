@@ -8,3 +8,5 @@
 ## 使用方法:
 - 先运行TCFullMenuGenerator.py, 生成英文版TCFullMenu_EN.mnu
 - 再运行TCMenuEN2CN.py, 生成中文版TCFullMenu_CN.mnu
+
+![image](tcmd1150FullMenu.jpg)
