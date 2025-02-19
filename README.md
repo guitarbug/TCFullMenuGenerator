@@ -8,7 +8,7 @@
 ## 使用方法:
 - 先运行TCFullMenuGenerator.py, 生成英文版TCFullMenu_EN.mnu
 - 再运行TCMenuEN2CN.py, 生成中文版TCFullMenu_CN.mnu
-- *扩展*: 将全部内部命令作为一个菜单项集成进官方发布的中文菜单文件中:
+- **扩展**: 将全部内部命令作为一个菜单项集成进官方发布的中文菜单文件中:
   - 用文本编辑器打开第一步生成的TCFullMenu_CN.mnu, 稍作修改(缩进, 添加头/尾)之后, 粘贴到官方的.\LANGUAGE\WCMD_CHN.MNU文件中, 另存为WCMD_CHN_All.MNU
   - 在TC配置中, 将主菜单文件配置成 WCMD_CHN_All.MNU, Done. 如图所示:
 
